@@ -6,10 +6,10 @@
 
 // ----------------------------2. ПЕРЕМЕННЫЕ-------------------------
 
-const COLOR_RED = 'f00';
-let color = COLOR_RED;
+// const COLOR_RED = 'f00';
+// let color = COLOR_RED;
 
-console.log(color);
+// console.log(color);
 
 // ----------------------------3. ТИПЫ ДАННЫХ--------------------------
 
@@ -61,3 +61,14 @@ console.log(color);
 // let numPow = newNum ** 3;
 // numPow = numPow.toString().substr(0, 2);
 // console.log(+numPow);
+
+
+
+
+// -----------------------4. ОБЩЕНИЕ С ПОЛЬЗОВАТЕЛЕМ---------------------
+
+// alert('Hello, Andrey!');
+let nameUser = prompt('Привет, друг!\nКак тебя зовут?');
+let ageUser = prompt('Cколько тебе лет?');
+let cityUser = prompt('Где ты живёшь?');
+alert(`Я вангую!\n\nТебя зовут ${nameUser}!\nТебе ${ageUser} лет и ты живёшь в замечательном городе ${cityUser}!\n\nПриятно познакомится с тобой!))`);
