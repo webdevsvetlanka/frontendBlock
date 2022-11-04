@@ -72,3 +72,31 @@
 // let ageUser = prompt('Cколько тебе лет?');
 // let cityUser = prompt('Где ты живёшь?');
 // alert(`Я вангую!\n\nТебя зовут ${nameUser}!\nТебе ${ageUser} лет и ты живёшь в замечательном городе ${cityUser}!\n\nПриятно познакомится с тобой!))`);
+
+
+// -----------------------5. ОПЕРАТОРЫ В JS------------------------------
+
+
+// let x = 2,
+//     y = 3;
+
+// console.log(y-x);  //1
+// console.log(5%2);  //1
+// console.log(2**3);  //8
+// console.log(4**(1/2)); //2
+
+// let text = 'text' + 'три';
+// console.log(text);  //textтри
+
+let hour = 12,
+    minute = 30;
+
+    if (hour == 12 && minute == 40) {
+      console.log('Сейчас 12:30!');
+    } else {
+      console.log('Сейчас НЕ 12:30!');
+    }
+
+
+console.log(!true);   //false
+console.log(!!true);  //true
