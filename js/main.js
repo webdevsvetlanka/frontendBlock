@@ -88,15 +88,15 @@
 // let text = 'text' + 'три';
 // console.log(text);  //textтри
 
-let hour = 12,
-    minute = 30;
+// let hour = 12,
+//     minute = 30;
 
-    if (hour == 12 && minute == 40) {
-      console.log('Сейчас 12:30!');
-    } else {
-      console.log('Сейчас НЕ 12:30!');
-    }
+//     if (hour == 12 && minute == 40) {
+//       console.log('Сейчас 12:30!');
+//     } else {
+//       console.log('Сейчас НЕ 12:30!');
+//     }
 
 
-console.log(!true);   //false
-console.log(!!true);  //true
+// console.log(!true);   //false
+// console.log(!!true);  //true
