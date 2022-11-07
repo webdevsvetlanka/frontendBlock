@@ -100,3 +100,11 @@
 
 // console.log(!true);   //false
 // console.log(!!true);  //true
+
+// -----------------------6. РАБОТЫ С GIT И GITHUB-------------------------
+
+// git init - создаёт git репозиторий;
+// git add <файл> - индексирует файл(подготавливает к коммиту);
+// git commit -m "First Commit" - добавление в репозиторий;
+// git push origin main - отправляет изменения в github;
+// git log - просмотр истори коммитов.
