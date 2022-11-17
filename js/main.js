@@ -497,14 +497,15 @@
 
 // Результатом функции должна быть та же строка, если усечение не требуется, либо, если необходимо, усечённая строка.
 
-function truncate(str, maxlength) {
-  if (str.length >= maxlength) {
-  return  str.slice(0, maxlength -1).concat('', '…');
-  } else {
-   return str;
-  }
-}
-console.log(truncate("Вот, что мне хотелось бы сказать на эту тему:", 20));
-console.log(truncate("Всем привет!", 20));
+// function truncate(str, maxlength) {
+//   if (str.length >= maxlength) {
+//   return  str.slice(0, maxlength -1).concat('', '…');
+//   } else {
+//    return str;
+//   }
+// }
+// console.log(truncate("Вот, что мне хотелось бы сказать на эту тему:", 20));
+// console.log(truncate("Всем привет!", 20));
 
 
+// --------------13. Строковые и числовые свойства и методы------------
