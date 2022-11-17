@@ -427,7 +427,7 @@
 
 // -----------------------11. ФУНКЦИИ-----------------------------------
 
-console.log('Задание 1');
+// console.log('Задание 1');
 // Перепишите функцию, используя оператор '?' или '||'
 // function checkAge(age) {
 //   if (age > 18) {
@@ -445,7 +445,7 @@ console.log('Задание 1');
 // let checkAge = (age) => (age > 18) || confirm('Родители разрешили?');
 // console.log(checkAge(17));
 
-console.log('Задание 2');
+// console.log('Задание 2');
 //Напишите функцию min(a,b), которая возвращает меньшее из чисел a и b.
 
 //Решение 2
@@ -453,24 +453,58 @@ console.log('Задание 2');
 // console.log(min(3, -1));
 
 
-console.log('Задание 3');
+// console.log('Задание 3');
 
 // Напишите функцию pow(x,n), которая возвращает x в степени n. Иначе говоря, умножает x на себя n раз и возвращает результат.
 
 //Решение 3
-let x = prompt('Введите число, которое хотите возвести в спепень.'),
-    n = prompt(`Введите степень, в которую хотите возвести число ${x}.`);
+// let x = prompt('Введите число, которое хотите возвести в спепень.'),
+//     n = prompt(`Введите степень, в которую хотите возвести число ${x}.`);
 
- function pow(x, n) {
-  return (n > 0) ?  (x ** n) : alert('Введите натуральное значение степени!');
+//  function pow(x, n) {
+//   return (n > 0) ?  (x ** n) : alert('Введите натуральное значение степени!');
   
- } 
+//  } 
 
- alert(`Число ${x} в степни ${n} будет равным ${pow(x, n)}!`);
-
-
+//  alert(`Число ${x} в степни ${n} будет равным ${pow(x, n)}!`);
 
 
 
+// --------------12. Строковые и числовые свойства и методы------------
+
+
+// Сделать первый символ заглавным
+
+// function ucFirst(str) {
+//   let newStr = str[0].toUpperCase() + str.slice(1);
+//   console.log(newStr);
+// }
+// ucFirst("вася");
+
+// Проверка на спам
+
+// function checkSpam(str) {
+//   return str.toLowerCase().includes('viagra') || str.toLowerCase().includes('xxx');
+// }
+// console.log(checkSpam('buy ViAgRA now'));
+// console.log(checkSpam('free xxxxx'));
+// console.log(checkSpam('innocent rabbit'));
+
+
+
+// Усечение строки
+// Создайте функцию truncate(str, maxlength), которая проверяет длину строки str и, если она превосходит maxlength, заменяет конец str на "…", так, чтобы её длина стала равна maxlength.
+
+// Результатом функции должна быть та же строка, если усечение не требуется, либо, если необходимо, усечённая строка.
+
+function truncate(str, maxlength) {
+  if (str.length >= maxlength) {
+  return  str.slice(0, maxlength -1).concat('', '…');
+  } else {
+   return str;
+  }
+}
+console.log(truncate("Вот, что мне хотелось бы сказать на эту тему:", 20));
+console.log(truncate("Всем привет!", 20));
 
 
