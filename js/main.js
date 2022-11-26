@@ -678,9 +678,9 @@
 //     arr2 = ['You', ...arr, 'spread', 'rest', 'operator'];
 //   console.log(arr2);
 
-let log = function(a, b, ...rest) {
-  console.log(a, b, rest);
-}
-log('Sveta', 'rest', 'spred', 'user', 'logo');
+// let log = function(a, b, ...rest) {
+//   console.log(a, b, rest);
+// }
+// log('Sveta', 'rest', 'spred', 'user', 'logo');
 
 
