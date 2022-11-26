@@ -684,3 +684,26 @@
 // log('Sveta', 'rest', 'spred', 'user', 'logo');
 
 
+// ---------------------- 18. Basic OOP -------------------------
+
+// let arr = [1, 2, 3, 4, 5];
+// arr.forEach(e => console.log(e));
+
+Array.prototype.partition = function(pred) {
+  let passed = [];
+  let failed = [];
+
+  for( let i = 0; i < this.length; i++ ) {
+    if (pred(this[i])) {
+      passed.push(this[i]);
+    } else {
+      failed.push(this[i]);
+    }
+  }
+
+  return [passed, failed];
+}
+let num = [1,2,3,4,5,6,7];
+
+console.log(num.partition(e => e <= 4));
+
