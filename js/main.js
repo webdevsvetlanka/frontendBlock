@@ -608,3 +608,14 @@
 
 
 // -----------------------14. Callback функция ---------------------------
+
+function test(subject, callback) {
+  console.log(`Начало написания теста по: ${subject}.`);
+  callback();
+}
+
+function finish() {
+  console.log(`Окончание теста!`);
+}
+
+test('физика', finish);
