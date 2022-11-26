@@ -651,15 +651,15 @@
 
 // -----------------------16. ARRAY ---------------------------
 
-let user = ['Shchenkova', 30, 'Svetlana'],
-    number = [10, 99, 3, 1658, 785];
+// let user = ['Shchenkova', 30, 'Svetlana'],
+//     number = [10, 99, 3, 1658, 785];
 
-    user.sort();
-    user.reverse();
-    console.log(user);
+//     user.sort();
+//     user.reverse();
+//     console.log(user);
 
-    number.sort(function(a,b){
-      return a - b;
-     }
-    );
-    console.log(number);
+//     number.sort(function(a,b){
+//       return a - b;
+//      }
+//     );
+//     console.log(number);
