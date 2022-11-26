@@ -623,26 +623,26 @@
 
 // -----------------------15. SUBJECT ---------------------------
 
-let taxi = {
-  make: "Vesta",
-  model: "taxi",
-  year: 1990,
-  color: 'yellow',
-  passenger: 4,
-  milage: 28000,
-  started: false,
-  start: function() {
-    this.started = true;
-  },
-  stop: function() {
-    this.started = false;
-  },
-  drive: function() {
-    if(this.started) {
-      console.log('Врум-врум!');
-    } else {
-      console.log('Заведи мотор для начала!');
-    }
-  }
-}
-taxi.drive();
+// let taxi = {
+//   make: "Vesta",
+//   model: "taxi",
+//   year: 1990,
+//   color: 'yellow',
+//   passenger: 4,
+//   milage: 28000,
+//   started: false,
+//   start: function() {
+//     this.started = true;
+//   },
+//   stop: function() {
+//     this.started = false;
+//   },
+//   drive: function() {
+//     if(this.started) {
+//       console.log('Врум-врум!');
+//     } else {
+//       console.log('Заведи мотор для начала!');
+//     }
+//   }
+// }
+// taxi.drive();
