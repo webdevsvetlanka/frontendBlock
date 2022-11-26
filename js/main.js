@@ -663,3 +663,24 @@
 //      }
 //     );
 //     console.log(number);
+
+
+
+// ------------17. Передача по ссылке или по значению -----------
+
+// let log = function(a, b, c) {
+//   console.log(a, b, c);
+// }
+// log(...['spread', 'rest', 'operator']);
+// log.apply(null, ['spread', 'rest', 'operator']);
+
+// let arr = ['will', 'love'],
+//     arr2 = ['You', ...arr, 'spread', 'rest', 'operator'];
+//   console.log(arr2);
+
+let log = function(a, b, ...rest) {
+  console.log(a, b, rest);
+}
+log('Sveta', 'rest', 'spred', 'user', 'logo');
+
+
