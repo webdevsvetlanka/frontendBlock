@@ -868,3 +868,14 @@
 //       } 
 //       console.log(d5);
 
+
+// --------------- 20. Динамическая типизация -----------------------
+
+console.log(String(1112));        // Строка
+console.log(Number('245678'));    // Число
+console.log(Number('khwfuihewu'));// NaN
+console.log(Boolean(1));          // true, (0) False
+console.log(String(true));        // Строка
+
+console.log(12 == '12'); // Выдаст true, так как проверка по значению
+console.log(12 === '12'); // Выдаст false, так как проверка и по значению и по типу("Строгое равенство")
