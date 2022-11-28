@@ -883,35 +883,35 @@
 
 // ----------- 21. Получение и действия с элементами на странице---------
 
-// 1. Повторите поведение кнопки по нажатию на нее 
-// (она меняет текст в span)
+// // 1. Повторите поведение кнопки по нажатию на нее 
+// // (она меняет текст в span)
 
-function e1ButtonClick() {
-  let elem = document.querySelector('#e1Elem1');
-  elem.innerHTML = '!!!';
-}
+// function e1ButtonClick() {
+//   let elem = document.querySelector('#e1Elem1');
+//   elem.innerHTML = '!!!';
+// }
 
-// 2. Повторите поведение кнопки по нажатию на нее (она меняет span на тег b, не изменяя при этом текст внутри тега)
+// // 2. Повторите поведение кнопки по нажатию на нее (она меняет span на тег b, не изменяя при этом текст внутри тега)
 
-function e1ButtonClick2() {
-  let elem2 = document.querySelector('span#e1Elem');
-  elem2.outerHTML = '<b>' + elem2.innerHTML + '</b>';
-}
+// function e1ButtonClick2() {
+//   let elem2 = document.querySelector('span#e1Elem');
+//   elem2.outerHTML = '<b>' + elem2.innerHTML + '</b>';
+// }
 
 
-// 3. Дан HTML код (см. под задачей). Поменяйте содержимое абзацев на их порядковый номер в коде.
+// // 3. Дан HTML код (см. под задачей). Поменяйте содержимое абзацев на их порядковый номер в коде.
 
-let elem3 = document.querySelectorAll('.test3 p');
+// let elem3 = document.querySelectorAll('.test3 p');
 
-for ( let i = 0; i < elem3.length; i++) {
-  elem3[i].innerHTML = i+1;
-}
+// for ( let i = 0; i < elem3.length; i++) {
+//   elem3[i].innerHTML = i+1;
+// }
 
-// 4. Дан HTML код (см. под задачей). Поменяйте содержимое элементов с классом zzz на их порядковый номер в коде.
+// // 4. Дан HTML код (см. под задачей). Поменяйте содержимое элементов с классом zzz на их порядковый номер в коде.
 
-let elem4 = document.getElementsByClassName('zzz');
+// let elem4 = document.getElementsByClassName('zzz');
 
-for ( i = 0; i < elem4.length; i++) {
-  elem4[i].innerHTML = i+1;
-}
+// for ( i = 0; i < elem4.length; i++) {
+//   elem4[i].innerHTML = i+1;
+// }
 
