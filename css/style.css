@@ -136,3 +136,129 @@ body {
   font-size: 14px;
 }
 }
+
+
+.practical5 .header {
+  background-color: #353c48;
+  padding: 30px 20px;
+}
+
+.practical5 .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.practical5  .logo {
+  width: 150px;
+}
+
+.practical5 .header-link {
+  color: #fff;
+  transition: color .3s;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.practical5 .header-link:hover {
+  color: #7fceed;
+}
+
+.practical5 .main-items-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.practical5  .main-content {
+ background-color: #353c48;
+ border-radius: 10px;
+ padding: 40px;
+}
+
+.practical5  .main-content h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.practical5  .main-item {
+  background-color: #3c4452;
+  border-radius: 10px;
+  padding: 25px 20px;
+  width: calc(50% - 40px);
+  margin: 0 20px 40px;
+}
+
+.practical5 button,
+.practical5 input {
+  display: block;
+  margin-top: 30px;
+  border: 2px solid #12c0dd;
+  color: #12c0dd;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  background-color: transparent;
+  padding: 5px 15px;
+  transition: .3s;
+}
+
+.practical5 button:hover,
+.practical5 input:hover {
+  background-color: #4ad4ee;
+    color: #1b1b1b;
+    border-color: #4ad4ee;
+}
+
+.practical5 .main-item h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+.practical5 input {
+  width: 30%;
+    margin-top: 0;
+}
+
+.main-item-input {
+  display: flex;
+}
+
+.main-item-input span {
+  color: #4ad4ee;
+  margin: 0 5px;
+  font-size: 24px;  
+}
+
+@media (max-width: 992px) {
+  .practical5 .main-item {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 577px) {
+  .practical5  .main-content {
+    padding: 30px 15px;
+  }
+  .practical5 .logo {
+    width: 100px;
+  }
+  .practical5 .header-content {
+    align-items: end;
+  }
+  .practical5 input {
+    width: 100%;
+    margin-top: 0;
+  }
+  .main-item-input {
+    flex-direction: column;
+  }
+
+  .practical5 .header-link {
+    font-size: 10px;
+  }
+}

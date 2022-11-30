@@ -1,42 +1,45 @@
 'use strict';
+
 // Задача 1
-// Запрограммируйте поведение кнопки по нажатию на нее (она меняет текст в 
-// span)
-// function buttonClick(){
-//     let elem = document.getElementById('elem');
-//     elem.innerHTML = '1';
-// }
+
+function buttonClick() {
+  let elem1 = document.getElementById('elem1');
+
+  elem1.innerHTML = 'Ку-ку! А я <b>жирный</b>!'
+}
+
 // Задача 2
-// Запрограммируйте  поведение кнопки по нажатию на нее (она меняет span на тег b, 
-// не изменяя при этом текст внутри тега)
-// function buttonClick(){
-//     let elem = document.getElementById('elem');
-//     elem.outerHTML = '<b>'+elem.innerHTML+'</b>';
-// }
-// Задча 3
-// Дан HTML код. Поменяйте содержимое абзацев на их порядковый номер в 
-// коде.
-// function func(){
-//     let elems = document.getElementsByTagName('p');
-//     for(let i = 0; i<elems.length; i++){
-//         elems[i].innerHTML = i+1;
-//     }
-// }
+
+function buttonClick2() {
+  let elem2 = document.getElementById('elem2');
+  elem2.outerHTML = '<h3>Абзац превратился в h3<h3>'
+}
+
+// Задача 3
+
+function buttonClick3() {
+  let elem3 = document.getElementById('elem3');
+  elem3.outerHTML = '<h3>' + elem3.innerHTML + '<h3>'
+}
+
 // Задача 4
-// Дан HTML код. Поменяйте содержимое элементов с классом "а" на их 
-// порядковый номер в коде.
-// function func(){
-//     let elems = document.getElementsByClassName('a');
-//     for(let i = 0;i<elems.length;i++){
-//         elems[i].innerHTML = i+1;
-//     }
-// }
+
+function buttonClick4() {
+  let num1 = document.querySelector('#num1').value,
+      num2 = document.querySelector('#num2').value,
+      reply = document.querySelector('.reply span'),
+      btn1 = document.getElementById('btn1');
+
+  reply.innerHTML = Number(num1) + Number(num2);
+  btn1.innerHTML = 'Готово!'
+}
+
 // Задача 5
-// Дан HTML код. Поменяйте содержимое абзацев с классом "а" на их 
-// порядковый номер в коде
-// function func(){
-//         let elems = document.querySelectorAll('.a');
-//         for(let i = 0;i<elems.length;i++){
-//             elems[i].innerHTML = i+1;
-//         }
-// }
+
+function buttonClick5() {
+  let elem5 = document.querySelectorAll('.numbs');
+
+  for ( let i = 0; i < elem5.length; i++) {
+    elem5[i].innerHTML = i;
+  }
+}
