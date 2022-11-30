@@ -1,3 +1,10 @@
+ function buttonClickBtn() {
+  let modal = document.querySelector('.modal-whatsapp');
+
+      modal.classList.add('openned');
+ }
+
+
 // ----------------------------1. ЧТО ТАКОЕ JavaScript--------------------------
 
 // console.log(10);
