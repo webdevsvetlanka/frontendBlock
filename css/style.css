@@ -295,22 +295,26 @@ body {
 }
 
 
-.practical5 .header {
+.practical5 .header,
+.lesson23 .header {
   background-color: #353c48;
   padding: 30px 20px;
 }
 
-.practical5 .header-content {
+.practical5 .header-content,
+.lesson23  .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.practical5  .logo {
+.practical5  .logo,
+.lesson23 .logo {
   width: 150px;
 }
 
-.practical5 .header-link {
+.practical5 .header-link,
+.lesson23 .header-link {
   color: #fff;
   transition: color .3s;
   text-transform: uppercase;
@@ -319,28 +323,33 @@ body {
   line-height: 1.4;
 }
 
-.practical5 .header-link:hover {
+.practical5 .header-link:hover,
+.lesson23 .header-link:hover {
   color: #7fceed;
 }
 
-.practical5 .main-items-box {
+.practical5 .main-items-box,
+.lesson23  .main-items-box {
   display: flex;
   flex-wrap: wrap;
 }
 
 
-.practical5  .main-content {
+.practical5  .main-content,
+.lesson23  .main-content {
  background-color: #353c48;
  border-radius: 10px;
  padding: 40px;
 }
 
-.practical5  .main-content h1 {
+.practical5  .main-content h1,
+.lesson23  .main-content h1 {
   margin-bottom: 50px;
   text-align: center;
 }
 
-.practical5  .main-item {
+.practical5 .main-item,
+.lesson23 .main-item {
   background-color: #3c4452;
   border-radius: 10px;
   padding: 25px 20px;
@@ -349,7 +358,9 @@ body {
 }
 
 .practical5 button,
+.lesson23  button,
 .practical5 input,
+.lesson23  input,
 .btn {
   display: block;
   margin-top: 30px;
@@ -363,20 +374,24 @@ body {
 }
 
 .practical5 button:hover,
+.lesson23 button:hover,
 .practical5 input:hover,
+.lesson23 input:hover,
 .btn:hover {
   background-color: #4ad4ee;
     color: #1b1b1b;
     border-color: #4ad4ee;
 }
 
-.practical5 .main-item h2 {
+.practical5 .main-item h2,
+.lesson23  .main-item h2 {
   margin-bottom: 15px;
   font-size: 28px;
   line-height: 1.3;
 }
 
-.practical5 input {
+.practical5 input,
+.lesson23 input {
   width: 30%;
     margin-top: 0;
 }
@@ -392,7 +407,8 @@ body {
 }
 
 @media (max-width: 992px) {
-  .practical5 .main-item {
+  .practical5 .main-item,
+  .lesson23 .main-item {
     width: 100%;
     margin: auto;
     margin-bottom: 40px;
@@ -400,16 +416,20 @@ body {
 }
 
 @media (max-width: 577px) {
-  .practical5  .main-content {
+  .practical5  .main-content,
+  .lesson23 .main-content {
     padding: 30px 15px;
   }
-  .practical5 .logo {
+  .practical5 .logo,
+  .lesson23 .logo {
     width: 100px;
   }
-  .practical5 .header-content {
+  .practical5 .header-content,
+  .lesson23 .header-content {
     align-items: end;
   }
-  .practical5 input {
+  .practical5 input,
+  .lesson23 input {
     width: 100%;
     margin-top: 0;
   }
@@ -417,7 +437,8 @@ body {
     flex-direction: column;
   }
 
-  .practical5 .header-link {
+  .practical5 .header-link,
+  .lesson23 .header-link {
     font-size: 10px;
   }
 }

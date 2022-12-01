@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обработчик событий</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="lesson23">
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <img src="../img/frontblok.svg" alt="">
+                    </div>
+                    <a href="mailto:kiara575@mail.ru" class="header-link">kiara575@mail.ru</a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main-content">
+                    <h1>Обработчик событий</h1>
+                    <div class="main-items-box">
+                        <div class="main-item">
+                            <h2>Задача 1</h2>
+
+                            <span>Создайте список, в котором элементы могут быть выделены, как в файловых
+                                менеджерах.<br>
+                                - При клике на элемент списка выделяется только этот элемент (добавляется класс
+                                .selected), отменяется выделение остальных элементов.<br>
+                                - Если клик сделан вместе с Ctrl (Cmd для Mac), то выделение переключается на элементе,
+                                но
+                                остальные элементы при этом не изменяются.</span><br><br>
+                            <span>P.P.S. Предотвратите стандартное для браузера выделение текста при
+                                кликах.</span><br><br>
+                            <ul id="ul" onmousedown="return false">
+                                <li>Кристофер Робин</li>
+                                <li>Винни Пух</li>
+                                <li>Тигра</li>
+                                <li>Кенга</li>
+                                <li>Кролик. Просто Кролик.</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        <style>
+            .selected {
+                background: #0f0;
+            }
+
+            li {
+                cursor: pointer;
+            }
+        </style>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <!-- <script src="script.js"></script> -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
