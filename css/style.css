@@ -131,7 +131,8 @@ body {
   transition: all 0.3s ease;
   opacity: 0;
   pointer-events: none;
-} 
+}
+
 .modal-whatsapp.openned {
   opacity: 1;
   pointer-events: auto;

@@ -1,8 +1,19 @@
- function buttonClickBtn() {
-  let modal = document.querySelector('.modal-whatsapp');
+function buttonClickBtn(btnSiteArg, btnGitHubArg) {
+  let modal = document.querySelector('.modal-whatsapp'),
+      btnSite =  document.querySelector('#btnSite'),
+      btnGitHub =  document.querySelector('#btnGitHub');
 
-      modal.classList.add('openned');
- }
+  btnSite.href = btnSiteArg;
+  btnGitHub.href = btnGitHubArg;
+
+  modal.classList.add('openned'); 
+}
+
+function closeBtn() {
+  let modal = document.querySelector('.modal-whatsapp');
+  modal.classList.remove('openned');
+}
+
 
 
 // ----------------------------1. ЧТО ТАКОЕ JavaScript--------------------------
