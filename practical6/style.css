@@ -1,4 +1,21 @@
-img{
-    width: 200px;
-    
+.practical5 input {
+    margin-bottom: 10px;
+}
+input:focus-visible {
+    outline: none;
+}
+
+.main-item3 p {
+    color: #12c0dd;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.main-item4 input.ok {
+    border-color: #49ff0c;
+}
+
+.main-item4 input.error {
+    border-color: #e30a0a;
 }
