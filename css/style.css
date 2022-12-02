@@ -442,6 +442,10 @@ body {
   .lesson23 .header-link {
     font-size: 10px;
   }
+
+  .modal-whatsapp-btns .btn {
+    padding: 5px 20px;
+  }
 }
 
 .icon-links a {
