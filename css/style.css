@@ -90,7 +90,12 @@ body {
 
 .main_list-item > div.active:hover a {
   background-color: #3c4452;
-  
+}
+
+.main_list-item-nohover> div.active:hover {
+  color: #fff;
+  background-color: #3c4452;
+  cursor: default;
 }
 
 .main_list-item > div {
